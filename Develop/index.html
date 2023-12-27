@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Added Google Font MuseoModerno -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=MuseoModerno">
+    <title>Password Generator</title>
+  </head>
+
+  <body>
+
+
+    
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <section id="card">
+        <h2>Generate a Password</h2>
+
+        <!-- Added a div only for the separator -->
+        <div class="separator"></div>
+           
+        <section id="password-textarea">
+          <!-- Increased readability of the code -->
+          <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+        </section>
+
+        <!-- Added a div only for the separator -->
+        <div class="separator"></div>
+
+        
+
+        <!-- removed on click function on the button -->
+        <button id="generate" class="btn">Generate Password</button>
+        
+      </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
