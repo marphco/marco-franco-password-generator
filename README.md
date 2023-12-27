@@ -23,7 +23,7 @@ The following image shows the web application's appearance on smartphones' scree
 
 ## Credits
 - [w3schools.com](https://www.w3schools.com/)
-- [developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)
+- [developer.mozilla.org](https://developer.mozilla.org/en-US/)
 
 ## Repository and Webpage link
 
