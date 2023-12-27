@@ -73,7 +73,7 @@ function generatePassword () {
 
   // Define the case in which the user doesn't select any criteria to include the password
   if (includeLowercase === false && includeUppercase === false && includeNumbers === false && includeSpecialChars === false) {
-    window.alert("You must select at lease one criteria to generate your password")
+    window.alert("You must select at least one criteria to generate your password")
     return
   }
 
