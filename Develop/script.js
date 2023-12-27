@@ -34,7 +34,9 @@ let numDigits = []
 // Function to generate the Password which must have a number of digits between 8 and 128
 function generatePassword () {
   numDigits = window.prompt ("How many digits do you want in your password?")
-if (numDigits < 8 || numDigits > 128) {
+  if (numDigits === null) {
+    return
+  } else  if (numDigits < 8 || numDigits > 128) {
   window.alert("You have to select a number between 8 and 128")
   return generatePassword()
 } else {
@@ -51,9 +53,10 @@ if (numDigits < 8 || numDigits > 128) {
   let uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")
   let numbers = "0123456789".split("")
   let specialChars = "!@#$%^&*()_+{}[]<>?".split("")
+  let noSelection = ""
 
   // Combine arrays based on user preferences
-  let allChars = [];
+  let allChars = []
 
   if (includeLowercase) {
     allChars = allChars.concat(lowercaseLetters)
@@ -66,6 +69,12 @@ if (numDigits < 8 || numDigits > 128) {
   }
   if (includeSpecialChars) {
     allChars = allChars.concat(specialChars)
+  }
+
+  // Define the case in which the user doesn't select any criteria to include the password
+  if (includeLowercase === false && includeUppercase === false && includeNumbers === false && includeSpecialChars === false) {
+    window.alert("You must select at lease one criteria to generate your password")
+    return
   }
 
   // Generate the password
