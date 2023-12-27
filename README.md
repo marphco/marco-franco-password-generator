@@ -9,17 +9,17 @@ You can select length (8-128 digits) and choosing whether to include lowercase l
 
 The following image shows the web application's appearance on desktops' screen:
 
-![Desktop screen size visualization.](./assets/images/desktop-screen.png)
+![Desktop screen size visualization.](./assets/images/desktop.png)
 
 
 The following image shows the web application's appearance on tablets' screen:
 
-![Tablet screen size visualization.](./assets/images/tablet-screen.png)
+![Tablet screen size visualization.](./assets/images/tablet.png)
 
 
 The following image shows the web application's appearance on smartphones' screen:
 
-![Smartphone screen size visualization.](./Assets/images/smartphone-screen.png)
+![Smartphone screen size visualization.](./Assets/images/smartphone.png)
 
 ## Credits
 - [w3schools.com](https://www.w3schools.com/)
